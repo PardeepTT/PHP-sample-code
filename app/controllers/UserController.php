@@ -61,7 +61,7 @@ class UserController {
         $title = 'Create User';
         $content = __DIR__ . '/../views/user/create.php';  // Path to the add view
         include __DIR__ . '/../views/layout.php';  // Path to the layout
-      //  require __DIR__ . '/../views/user/create.php';
+      
     }
 
     public function edit($id) {
@@ -88,7 +88,7 @@ class UserController {
         $title = 'Edit User';
         $content = __DIR__ . '/../views/user/edit.php';  // Path to the add view
         include __DIR__ . '/../views/layout.php';  // Path to the layout
-        //require __DIR__ . '/../views/user/edit.php';;
+        
     }
 
     public function changePassword($id) {
@@ -140,7 +140,7 @@ class UserController {
         $title = 'Change Password';
         $content = __DIR__ . '/../views/user/change_password.php';  // Path to the add view
         include __DIR__ . '/../views/layout.php';  // Path to the layout
-       // require __DIR__ . '/../views/user/change_password.php';
+     
     }
     
     
